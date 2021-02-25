@@ -45,6 +45,11 @@ const Header = () => {
               <a>GraphQL Playground</a>
             </Link>
           </li>           
+          <li>
+            <Link href="/vns/debug">
+              <a>Debug Pages Index</a>
+            </Link>
+          </li>
         </ul>
       </nav>
       <style jsx>{`
