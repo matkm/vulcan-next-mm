@@ -6,6 +6,7 @@
  */
 import { typeScale } from "~/lib/style/typography";
 import Footer from "./Footer";
+import Header from "./Header";
 
 interface AppLayoutProps {
   children: React.ReactNode;
@@ -13,6 +14,7 @@ interface AppLayoutProps {
 
 const AppLayout = ({ children }: AppLayoutProps) => (
   <div className="global">
+    <Header />
     <main>{children}</main>
     <Footer />
     <style jsx global>{`
