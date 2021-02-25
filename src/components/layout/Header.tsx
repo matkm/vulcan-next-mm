@@ -40,6 +40,16 @@ const Header = () => {
               </Link>
             </li>
           )}
+          <li>
+            <Link href="/api/debug/graphql-voyager">
+              <a>GraphQL Voyager</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/api/graphql">
+              <a>GraphQL Playground</a>
+            </Link>
+          </li> 
         </ul>
       </nav>
       <style jsx>{`
